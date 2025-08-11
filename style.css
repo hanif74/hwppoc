@@ -1,0 +1,164 @@
+/*
+Theme Name: hwppoc
+Theme URI: https://example.com/
+Author: Hanif Farahnak
+Author URI: https://www.linkedin.com/in/hanif-farahnak
+Description: A professional custom WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hwppoc
+*/
+
+.content-with-pattern {
+    --section-pad-y: 5rem;
+    padding: var(--section-pad-y) 0;
+    background-image:
+            linear-gradient(rgba(248, 249, 250, 0.96), rgba(248, 249, 250, 0.96)),
+            url('assets/images/light-pattern.svg'); /* path is correct for root style.css */
+    background-repeat: no-repeat, repeat;
+    background-size: cover, auto;
+    background-position: center top, left top;
+}
+
+.navbar { padding-top: 0 !important; padding-bottom: 0 !important; }
+.navbar .container, .navbar .container-fluid { padding-top: 0; padding-bottom: 0; }
+.navbar-brand { padding: 0 !important; margin: 0 !important; line-height: 0; }
+
+.navbar-brand img.site-logo {
+    height: 150px;
+    width: auto;
+    display: block;
+}
+
+.navbar-toggler { padding-top: .25rem; padding-bottom: .25rem; line-height: 1; }
+
+header.sticky-top .navbar {
+    --bs-navbar-padding-y: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+header.sticky-top .navbar-brand {
+    --bs-navbar-brand-padding-y: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 0;
+}
+
+header.sticky-top .navbar-nav > li > a.nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: 1;
+}
+
+header.sticky-top .navbar-nav .sub-menu {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+    min-width: 220px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+header.sticky-top .navbar-nav .sub-menu a.nav-link {
+    --bs-nav-link-padding-y: .5rem;
+    padding: .5rem 1rem !important;
+    line-height: 1.3;
+    border-radius: .375rem;
+    white-space: nowrap;
+}
+header.sticky-top .navbar-nav .sub-menu > li + li { margin-top: .15rem; }
+
+header.sticky-top .navbar-brand img.site-logo {
+    height: 150px;
+    width: auto;
+    display: block;
+}
+
+header.sticky-top .navbar-toggler {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    line-height: 1;
+}
+
+header.sticky-top .navbar-nav li { position: relative; }
+
+header.sticky-top .navbar-nav > li.menu-item-has-children > .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;                 /* <-- key */
+    padding: .5rem;
+    flex-direction: column;
+    gap: .35rem;
+    min-width: 220px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+    z-index: 1000;
+}
+
+header.sticky-top .navbar-nav > li.menu-item-has-children:hover > .sub-menu,
+header.sticky-top .navbar-nav > li.menu-item-has-children:focus-within > .sub-menu {
+    display: flex;
+}
+
+header.sticky-top .navbar-nav .sub-menu .menu-item-has-children { position: relative; }
+
+header.sticky-top .navbar-nav .sub-menu .menu-item-has-children > .sub-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+header.sticky-top .navbar-nav .sub-menu .menu-item-has-children:hover > .sub-menu,
+header.sticky-top .navbar-nav .sub-menu .menu-item-has-children:focus-within > .sub-menu {
+    display: flex;
+}
+
+@media (max-width: 991.98px) {
+    header.sticky-top .navbar-nav > li > a.nav-link {
+        padding: .75rem 1rem !important;
+        line-height: 1.4;
+        border-radius: .375rem;
+    }
+
+    header.sticky-top .navbar-nav > li + li { margin-top: .25rem; }
+
+    header.sticky-top .navbar-nav .sub-menu {
+        position: static;
+        display: none;
+        padding: 0;
+        margin: .25rem 0 .5rem 1rem;
+        gap: .25rem;
+        border: 0;
+        box-shadow: none;
+        background: transparent;
+    }
+
+    header.sticky-top .navbar-nav li.menu-item-has-children:focus-within > .sub-menu,
+    header.sticky-top .navbar-nav li.menu-item-has-children:hover > .sub-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header.sticky-top .navbar-nav .sub-menu a.nav-link {
+        padding: .5rem 1rem !important;
+        line-height: 1.3;
+    }
+}
+
+.content-with-gradient {
+    --section-pad-y: 5rem;
+    background: linear-gradient(to bottom, #eef2f3, #ffffff);
+    padding: var(--section-pad-y) 0;
+}
+
+.content-with-pattern.is-tight       { --section-pad-y: 2.5rem; }
+.content-with-pattern.is-tight-hero  { --section-pad-y: 3rem; }
+.content-with-pattern + .content-with-pattern { --section-pad-y: 2.5rem; }
+
+.entry-content img { max-width: 100%; height: auto; }
+.entry-content p:last-child { margin-bottom: 0; }

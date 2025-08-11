@@ -1,0 +1,197 @@
+# Copyright (C) 2025 Hanif Farahnak
+# This file is distributed under the same license as the hwppoc theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: hwppoc 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hwppoc\n"
+"POT-Creation-Date: 2025-08-11 15:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Hanif Farahnak <your-email@example.com>\n"
+"Language-Team: Hanif Farahnak <your-email@example.com>\n"
+
+#: includes/class-custom-post-types.php
+msgid "Projects"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Project"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Add New Project"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Edit Project"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Update Project"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "View Project"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "All Projects"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Search Project"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Parent Project:"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Not found"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Project updated."
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Project published."
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Project saved."
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Project submitted."
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Project draft updated."
+msgstr ""
+
+#: includes/class-custom-post-types.php
+msgid "Preview Project"
+msgstr ""
+
+#: templates/template-home.php
+msgid "Welcome to Our Portfolio"
+msgstr ""
+
+#: templates/template-home.php
+msgid "Showcasing our best work."
+msgstr ""
+
+#: templates/template-blog.php
+msgid "From Our Blog"
+msgstr ""
+
+#: templates/template-blog.php, archive.php
+msgid "Read More"
+msgstr ""
+
+#: templates/template-blog.php, archive.php
+msgid "&laquo; Previous"
+msgstr ""
+
+#: templates/template-blog.php, archive.php
+msgid "Next &raquo;"
+msgstr ""
+
+#: templates/template-blog.php, archive-projects.php
+msgid "No posts found."
+msgstr ""
+
+#: single.php
+msgid "Posted on"
+msgstr ""
+
+#: single.php
+msgid "by"
+msgstr ""
+
+#: single.php
+msgid "About This Post"
+msgstr ""
+
+#: page.php
+msgid "Pages:"
+msgstr ""
+
+#: archive.php
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: archive.php
+msgid "Read Post"
+msgstr ""
+
+#: archive-projects.php
+msgid "Started On or After:"
+msgstr ""
+
+#: archive-projects.php
+msgid "Ended On or Before:"
+msgstr ""
+
+#: archive-projects.php
+msgid "Filter Projects"
+msgstr ""
+
+#: archive-projects.php
+msgid "Clear"
+msgstr ""
+
+#: archive-projects.php
+msgid "No projects found matching your criteria."
+msgstr ""
+
+#: archive-projects.php, single-projects.php
+msgid "View Project"
+msgstr ""
+
+#: archive-projects.php
+msgid "Placeholder Image"
+msgstr ""
+
+#: single-projects.php
+msgid "About the Project"
+msgstr ""
+
+#: single-projects.php
+msgid "Project Details"
+msgstr ""
+
+#: single-projects.php
+msgid "Start Date:"
+msgstr ""
+
+#: single-projects.php
+msgid "End Date:"
+msgstr ""
+
+#: single-projects.php
+msgid "Website:"
+msgstr ""
+
+#: single-projects.php
+msgid "Visit Project Site"
+msgstr ""
+
+#: single-projects.php
+msgid "View All Projects"
+msgstr ""
+
+#: header.php
+msgid "Toggle navigation"
+msgstr ""
+
+#: footer.php
+msgid "All Rights Reserved."
+msgstr ""

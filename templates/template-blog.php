@@ -3,7 +3,6 @@
 
 get_header();
 
-// Use the official Posts page if set; otherwise the current page
 $blog_page_id = (int) get_option('page_for_posts');
 if (!$blog_page_id) {
     $blog_page_id = get_queried_object_id();
@@ -34,7 +33,6 @@ if (!$blog_page_id) {
         </div>
     </section>
 
-    <!-- FULL PAGE CONTENT (between hero and posts list) -->
 <?php
 $raw_content = get_post_field('post_content', $blog_page_id);
 if ( trim($raw_content) !== '' ) : ?>

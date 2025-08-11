@@ -21,7 +21,7 @@ get_header();
 
 
     <!-- ======================================================= -->
-    <!-- SECTION 2: THE PAGE CONTENT                           -->
+    <!-- SECTION 2: THE PAGE CONTENT                             -->
     <!-- ======================================================= -->
     <div class="content-with-pattern">
         <main class="container">

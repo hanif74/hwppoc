@@ -9,7 +9,7 @@ get_header();
 ?>
 
     <!-- ======================================================= -->
-    <!-- SECTION 1: DYNAMIC ARCHIVE HERO                       -->
+    <!-- SECTION 1: DYNAMIC ARCHIVE HERO                         -->
     <!-- ======================================================= -->
     <div class="container-fluid bg-light py-5">
         <div class="container">
@@ -22,7 +22,7 @@ get_header();
 
 
     <!-- ======================================================= -->
-    <!-- SECTION 2: THE GRID OF POSTS                          -->
+    <!-- SECTION 2: THE GRID OF POSTS                            -->
     <!-- ======================================================= -->
     <div class="content-with-pattern">
         <main class="container">

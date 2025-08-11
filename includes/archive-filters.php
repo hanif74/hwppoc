@@ -1,11 +1,5 @@
 <?php
 /**
- * Handles custom filtering for archive pages.
- *
- * @package ProTheme
- */
-
-/**
  * This function hooks into 'pre_get_posts'.
  *
  * @param WP_Query $query The main WordPress query object.
@@ -17,7 +11,7 @@ function pro_theme_filter_projects_by_date( $query ) {
 
         if ( isset( $_GET['start_date'] ) && ! empty( $_GET['start_date'] ) ) {
             $meta_query[] = array(
-                'key'     => 'project_start_date', // The ACF field name.
+                'key'     => 'project_start_date',
                 'value'   => sanitize_text_field( $_GET['start_date'] ),
                 'compare' => '>=',
                 'type'    => 'DATE',

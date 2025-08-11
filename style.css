@@ -38,6 +38,7 @@ header.sticky-top .navbar {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
+
 header.sticky-top .navbar-brand {
     --bs-navbar-brand-padding-y: 0;
     padding: 0 !important;
@@ -68,6 +69,7 @@ header.sticky-top .navbar-nav .sub-menu a.nav-link {
     border-radius: .375rem;
     white-space: nowrap;
 }
+
 header.sticky-top .navbar-nav .sub-menu > li + li { margin-top: .15rem; }
 
 header.sticky-top .navbar-brand img.site-logo {

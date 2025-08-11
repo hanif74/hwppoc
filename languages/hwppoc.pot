@@ -9,8 +9,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Hanif Farahnak <your-email@example.com>\n"
-"Language-Team: Hanif Farahnak <your-email@example.com>\n"
+"Last-Translator: Hanif Farahnak <hfarahnak81@gmail.com>\n"
+"Language-Team: Hanif Farahnak <hfarahnak81@gmail.com>\n"
 
 #: includes/class-custom-post-types.php
 msgid "Projects"

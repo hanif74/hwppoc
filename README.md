@@ -125,5 +125,3 @@ The theme is fully translatable. A master `.pot` file is included in the `/langu
     4.  Save the file. Poedit will automatically generate a compiled `.mo` file (`de_DE.mo`).
     5.  Place both the `.po` and `.mo` files into the theme's `/languages` folder.
     6.  In the WordPress admin, go to **Settings > General** and change the **Site Language** to your target language (e.g., Deutsch). The translated strings will now appear on the site.
-
-Thank you for the opportunity to complete this technical assessment.
